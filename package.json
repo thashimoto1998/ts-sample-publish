@@ -1,0 +1,21 @@
+{
+  "name": "ts-sample-publish",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/thashimoto1998/ts-sample-publish.git",
+  "author": "Taki <hashimoto19980924@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
