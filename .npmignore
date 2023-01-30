@@ -1,0 +1,8 @@
+node_modules
+.idea
+.env
+
+# yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
