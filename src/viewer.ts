@@ -4,7 +4,7 @@ export class Viewer {
 
     constructor() {
         this.num = 3;
-        this.str = "hello";
+        this.str = "hello world";
     }
 
     getNum = () => {
