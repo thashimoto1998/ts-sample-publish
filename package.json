@@ -1,6 +1,6 @@
 {
-  "name": "ts-sample-publish",
-  "version": "1.0.4",
+  "name": "ts-sample-publish2",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
