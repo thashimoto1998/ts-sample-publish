@@ -3,7 +3,7 @@ export class Viewer {
     public str: string;
 
     constructor() {
-        this.num = 3;
+        this.num = 5;
         this.str = "hello";
     }
 
