@@ -65,6 +65,9 @@ jobs:
           tag: ${{ steps.package-version.outputs.current-version }}
           name: ${{ github.event.pull_request.title }}
           body: ${{ github.event.pull_request.body }}
+      
+      - name: Build
+        run: yarn build
 
       - name: Publish npm package
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc && yarn publish
