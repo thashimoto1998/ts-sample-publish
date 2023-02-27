@@ -8,7 +8,7 @@ export class Viewer {
     }
 
     getNum = () => {
-        return this.num;
+        return this.num+1;
     }
 
     getStr = () => {
